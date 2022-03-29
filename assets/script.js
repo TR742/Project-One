@@ -1,36 +1,47 @@
-function getApi(){
-let url="https://dog.ceo/api/breeds/image/random"
-let response=""
-// fetch (queryUrl);
+let response = document.getElementById('response')
 
-// $.ajax({
-//     url: queryUrl,
-//     method: "GET"
-//   })
-//     // Store all of the retrieved data inside of an object called "weather"
-//     .then(function(image) {
-//       // Log the queryUrl
-//       console.log(queryUrl);
-//     })
-//       // Log the resulting object
-//       console.log(queryUrl);
-fetch(url)
+function getApi(){
+let url = "https://dog.ceo/api/breeds/image/random/13"
+
+
+  fetch(url)
 .then(function (response) {
   return response.json();
 })
 
 
 .then(function (data) {
-  console.log(data)
+  // console.log(data)
   for (let i = 0; i < data.length; i++){
- 
-  document.createElement(Image);
-   figure = data[i].html_url;
-        figure.display(data);
-      
+
+ console.log(data.length)
+
+
+  let i1 = document.createElement('img');
+      i1.textContent = data[i].message;
+  //  console.log(data[i].message)
+
+   response.append(i1);  
       }
     });
 
-  }
-  //console.log(getApi)
-getApi()
+ }
+
+console.log(getApi)
+ getApi()
+
+
+ // fetch(url)
+  // .then((response) => {
+  //   if (response.ok) {
+  //     return response.json();
+  //   } else {
+  //     throw new Error("NETWORK RESPONSE ERROR");
+  //   }
+  // })
+  // .then(data => {
+  //   console.log(data.message);
+  //   displayImg(data)
+  // })
+
+  // console.log(data.message);
