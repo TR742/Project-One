@@ -16,3 +16,14 @@
 .headers {
     color: white;
 }
+
+#aboutMe {
+    text-align: center;
+    border: 3px ridge black;
+    padding: 20px;
+}
+
+#casey {
+    height: 200px;
+    width: 200px;
+}
