@@ -6,13 +6,38 @@
     border: solid;
     border-color: black;
     margin: 20px 20px;
+    text-decoration: none;
 } 
 .a-tag-headers2 {
-    font-size: 100px;
+    font-size: 60px;
     text-align: center;
     color: white;
     margin-left: 30px;
 }
 .headers {
     color: white;
+}
+
+.sb1 {
+    background-image: url(lodging\ dog.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sb2 {
+    background-image: url(./dogs\ in\ rest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sb3 {
+    background-image: url(./dogs\ in\ a\ park.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sb4 {
+    background-image: url(./rot\ pups.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
