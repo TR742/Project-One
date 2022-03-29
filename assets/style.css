@@ -1,0 +1,18 @@
+.shortBox{
+    display: inline-flex;
+    background-color: black;
+    width: 670px;
+    height: 250px;
+    border: solid;
+    border-color: black;
+    margin: 20px 20px;
+} 
+.a-tag-headers2 {
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    margin-left: 30px;
+}
+.headers {
+    color: white;
+}
