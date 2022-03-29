@@ -1,10 +1,10 @@
-let response = document.getElementById('response')
+response = document.getElementById('response')
 
 function getApi(){
-let url = "https://dog.ceo/api/breeds/image/random/13"
+let url = "https://dog.ceo/api/breeds/image/random/13";
 
 
-  fetch(url)
+fetch(url)
 .then(function (response) {
   return response.json();
 })
@@ -14,7 +14,7 @@ let url = "https://dog.ceo/api/breeds/image/random/13"
   // console.log(data)
   for (let i = 0; i < data.length; i++){
 
- console.log(data.length)
+ console.log(data[i])
 
 
   let i1 = document.createElement('img');
@@ -29,6 +29,10 @@ let url = "https://dog.ceo/api/breeds/image/random/13"
 
 console.log(getApi)
  getApi()
+
+
+
+ 
 
 
  // fetch(url)
