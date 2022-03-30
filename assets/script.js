@@ -34,3 +34,35 @@ fetch(url)
   }
   //console.log(getApi)
 getApi()
+
+
+// google map JS
+// Initialize and add the map
+function initMap() {
+  // The location of 
+  const Arizona  = { lat: 34.09343148219766, lng: -111.5585171177053 };
+  // The map, centered at Arizona 
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 4,
+    center: Arizona,
+  });
+  // The marker, positioned at Arizona 
+  const marker = new google.maps.Marker({
+    position: Arizona,
+    map: map,
+  });
+}
+// The location of AZ
+const Arizona  = { lat: 34.09343148219766, lng: -111.5585171177053};
+// The map, centered at AZ
+const map = new google.maps.Map(document.getElementById("map"), {
+  zoom: 4,
+  center: Arizona,
+});
+
+// The marker, positioned at Phoenix
+const marker = new google.maps.Marker({
+  position: Phoenix,
+  map: map,
+});
+
