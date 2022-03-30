@@ -1,5 +1,5 @@
 
-fetch("https://dog.ceo/api/breeds/image/random/3")
+fetch("https://dog.ceo/api/breeds/image/random/2")
   .then(function(response){
     return response.json()})
 
