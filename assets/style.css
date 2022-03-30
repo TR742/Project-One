@@ -1,0 +1,55 @@
+.shortBox{
+    display: inline-flex;
+    background-color: black;
+    width: 670px;
+    height: 250px;
+    border: solid;
+    border-color: black;
+    margin: 20px 20px;
+    text-decoration: none;
+} 
+.a-tag-headers2 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    margin-left: 30px;
+}
+.headers {
+    color: white;
+}
+
+
+#aboutMe {
+    text-align: center;
+    border: 3px ridge black;
+    padding: 20px;
+}
+
+#casey {
+    height: 200px;
+    width: 200px;
+}
+
+.sb1 {
+    background-image: url(lodging\ dog.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sb2 {
+    background-image: url(./dogs\ in\ rest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sb3 {
+    background-image: url(./dogs\ in\ a\ park.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sb4 {
+    background-image: url(./rot\ pups.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
