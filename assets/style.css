@@ -1,11 +1,11 @@
 .shortBox{
     display: inline-flex;
     background-color: black;
-    width: 670px;
+    width: 40%;
     height: 250px;
     border: solid;
     border-color: black;
-    margin: 20px 20px;
+    margin: 20px;
     text-decoration: none;
 } 
 .a-tag-headers2 {
@@ -20,9 +20,14 @@
 
 
 #aboutMe {
-    text-align: center;
+    text-align: left;
     border: 3px ridge black;
     padding: 20px;
+    margin: 50px 200px;
+}
+
+#aboutMe h2 {
+    text-align: center;
 }
 
 #casey {
@@ -53,9 +58,22 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+<<<<<<< HEAD
 .carousal-item img {
     display: inline;
     size-adjust: auto;
 
     
+=======
+
+.carousel-item img {
+    display: inline;
+    width: 25%;
+    height: 250px;
+}
+
+#flexboxes {
+    align-items: center;
+    margin: 0px 25px;
+>>>>>>> debeb98bb4b0135b8ecd14cd4a7b860d877b3395
 }
