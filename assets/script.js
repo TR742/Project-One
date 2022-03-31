@@ -1,5 +1,5 @@
 // Fetching API and responding the request in JSON
-fetch("https://dog.ceo/api/breeds/image/random/2")
+fetch("https://dog.ceo/api/breeds/image/random/4")
   .then(function(response){
     return response.json()})
   .then( function(data) {
