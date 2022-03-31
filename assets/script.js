@@ -12,7 +12,7 @@ fetch("https://dog.ceo/api/breeds/image/random/2")
 
 
 // Dynamically creating a carousel element with images are iterated and appended to
-      let images = document.querySelector("#carouselExampleSlidesOnly");
+      let images = document.querySelector(".carousel-item");
       console.log(images)
     // console.log(data)
     let imgList = document.createElement('img');

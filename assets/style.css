@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-h1{
+header h1{
    text-align: center;
     font-family:Indie Flower,cursive;
     display: center;
 }
 
-h2 {
+header h2 {
     text-align: center;
     font-family:Indie Flower,cursive; 
     display: center;
@@ -73,14 +73,17 @@ h2 {
 }
 
 .carousal-item img {
-    display: inline;
-    size-adjust: auto;
-    width: 25%;
-    height: 250px;
+    
+    display:list-item;
+    width:5%;
+    height: 150px;
+    
 }
 
 #flexboxes {
     align-items: center;
     margin: 0px 25px;
+
+
 
 }
