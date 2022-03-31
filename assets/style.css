@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+header h1{
+   text-align: center;
+    font-family:Indie Flower,cursive;
+    display: center;
+}
+
+header h2 {
+    text-align: center;
+    font-family:Indie Flower,cursive; 
+    display: center;
+}
+
 .shortBox{
     display: inline-flex;
     background-color: black;
@@ -60,6 +73,14 @@
 }
 
 
+.carousal-item img {
+    
+    display:list-item;
+    width:5%;
+    height: 150px;
+    
+
+
 /* Set the size of the div element that contains the map */
 #map {
     height: 400px;
@@ -81,11 +102,19 @@
     display: inline;
     width: 25%;
     height: 250px;
+
 }
 
 #flexboxes {
     align-items: center;
     margin: 0px 25px;
+
+
+
+
 }
+
+}
+
 
 
