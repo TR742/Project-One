@@ -72,12 +72,37 @@ header h2 {
     background-repeat: no-repeat;
 }
 
+
 .carousal-item img {
     
     display:list-item;
     width:5%;
     height: 150px;
     
+
+
+/* Set the size of the div element that contains the map */
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+
+  /* Set the size of the div element that contains the map */
+  #map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+
+
+.carousel-item img {
+    display: inline;
+    width: 25%;
+    height: 250px;
+
 }
 
 #flexboxes {
@@ -86,4 +111,10 @@ header h2 {
 
 
 
+
 }
+
+}
+
+
+
