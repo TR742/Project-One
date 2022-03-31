@@ -1,11 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+header h1{
+   text-align: center;
+    font-family:Indie Flower,cursive;
+    display: center;
+}
+
+header h2 {
+    text-align: center;
+    font-family:Indie Flower,cursive; 
+    display: center;
+}
+
 .shortBox{
     display: inline-flex;
     background-color: black;
-    width: 670px;
+    width: 40%;
     height: 250px;
     border: solid;
     border-color: black;
-    margin: 20px 20px;
+    margin: 20px;
     text-decoration: none;
 } 
 .a-tag-headers2 {
@@ -20,9 +33,14 @@
 
 
 #aboutMe {
-    text-align: center;
+    text-align: left;
     border: 3px ridge black;
     padding: 20px;
+    margin: 50px 200px;
+}
+
+#aboutMe h2 {
+    text-align: center;
 }
 
 #casey {
@@ -53,8 +71,50 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-.carousal-item {
-  display:block;
-    width: 10%;
-    height: 10%;
+
+
+.carousal-item img {
+    
+    display:list-item;
+    width:5%;
+    height: 150px;
+    
+
+
+/* Set the size of the div element that contains the map */
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+
+  /* Set the size of the div element that contains the map */
+  #map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+
+
+.carousel-item img {
+    display: inline;
+    width: 25%;
+    height: 250px;
+
 }
+
+#flexboxes {
+    align-items: center;
+    margin: 0px 25px;
+
+
+
+
+}
+
+}
+
+
+
