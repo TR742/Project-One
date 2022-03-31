@@ -46,6 +46,23 @@ header h2 {
 #casey {
     height: 200px;
     width: 200px;
+    margin: 20px;
+}
+
+#taylor {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+#tyler {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+#footer p {
+    display: inline-flex;
 }
 
 .sb1 {
@@ -81,8 +98,6 @@ header h2 {
     /* The width is the width of the web page */
   }
 
-
-
 .carousel-item img {
     display: inline;
     width: 25%;
@@ -93,13 +108,4 @@ header h2 {
 #flexboxes {
     align-items: center;
     margin: 0px 25px;
-
-
-
-
 }
-
-
-
-
-
