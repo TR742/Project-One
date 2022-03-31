@@ -53,8 +53,9 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-.carousal-item {
-  display:block;
-    width: 10%;
-    height: 10%;
+.carousal-item img {
+    display: inline;
+    size-adjust: auto;
+
+    
 }
