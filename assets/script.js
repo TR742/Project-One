@@ -1,5 +1,5 @@
 // Fetching API and responding the request in JSON
-fetch("https://dog.ceo/api/breeds/image/random/4")
+fetch("https://dog.ceo/api/breeds/image/random/2")
   .then(function(response){
     return response.json()})
   .then( function(data) {
@@ -14,7 +14,7 @@ fetch("https://dog.ceo/api/breeds/image/random/4")
     imgList.src = data.message[i];
     images.appendChild(imgList);
     }
-  })
+  });
 
 
 
@@ -22,55 +22,47 @@ fetch("https://dog.ceo/api/breeds/image/random/4")
 
                          // SECOND API CALL//
 
-                         
-// this is just the defualt location for the example from google it needs to be changed to Arizona after we get it to work
-// Initialize and add the map
+
+    // Initialize and add the map
 function initMap() {
-  // The location of Uluru
-  const uluru = { lat: -25.344, lng: 131.036 };
-  // The map, centered at Uluru
+  // The location of Arizona
+
+  const Arizona
+ = { lat: 33.45, lng: -112.07 };
+  // The map, centered at Arizona
+
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 4,
-    center: uluru,
+    center: Arizona
+,
   });
-  // The marker, positioned at Uluru
+  // The marker, positioned at Arizona
+
   const marker = new google.maps.Marker({
-    position: uluru,
+    position: Arizona
+,
     map: map,
   });
 }
-
 // Initialize and add the map
 function initMap() {
-  // The location of Uluru
-  const uluru = { lat: -25.344, lng: 131.036 };
-  // The map, centered at Uluru
+  // The location of Arizona
+
+  const Arizona
+ = { lat: 33.45, lng: -112.07 };
+  // The map, centered at Arizona
+
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 4,
-    center: uluru,
+    center: Arizona
+,
   });
-  // The marker, positioned at Uluru
+  // The marker, positioned at Arizona
+
   const marker = new google.maps.Marker({
-    position: uluru,
+    position: Phoenix 
+,
     map: map,
   });
-}
-
-// The location of AZ
-const Arizona  = { lat: 34.09343148219766, lng: -111.5585171177053};
-// The map, centered at AZ
-const map = new google.maps.Map(document.getElementById("map"), {
-  zoom: 4,
-  center: Arizona,
-});
-
-// The marker, positioned at Phoenix
-const marker = new google.maps.Marker({
-  position: Phoenix,
-  map: map,
-});
-
-
-
-    
+};
 
