@@ -83,25 +83,25 @@ header h2 {
 }
 
 .sb1 {
-    background-image: url(lodging\ dog.jpeg);
+    background-image: url(lodging_dog.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .sb2 {
-    background-image: url(./dogs\ in\ rest.jpg);
+    background-image: url(dogs_in_rest.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .sb3 {
-    background-image: url(./dogs\ in\ a\ park.jpg);
+    background-image: url(dogs_in_a_park.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .sb4 {
-    background-image: url(./rot\ pups.jpeg);
+    background-image: url(rot_pups.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
