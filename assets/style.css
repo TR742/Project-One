@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+h1{
+   text-align: center;
+    font-family:Indie Flower,cursive;
+    display: center;
+}
+
+h2 {
+    text-align: center;
+    font-family:Indie Flower,cursive; 
+    display: center;
+}
+
 .shortBox{
     display: inline-flex;
     background-color: black;
@@ -58,16 +71,10 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-<<<<<<< HEAD
+
 .carousal-item img {
     display: inline;
     size-adjust: auto;
-
-    
-=======
-
-.carousel-item img {
-    display: inline;
     width: 25%;
     height: 250px;
 }
@@ -75,5 +82,5 @@
 #flexboxes {
     align-items: center;
     margin: 0px 25px;
->>>>>>> debeb98bb4b0135b8ecd14cd4a7b860d877b3395
+
 }
