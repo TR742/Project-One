@@ -20,48 +20,23 @@ fetch("https://dog.ceo/api/breeds/image/random/2")
 
 
 
-                         // SECOND API CALL//
+                         // SECOND API CALL Google Map//
 
 
-    // Initialize and add the map
 function initMap() {
-  // The location of Arizona
-
   const Arizona
- = { lat: 33.45, lng: -112.07 };
-  // The map, centered at Arizona
-
+    = { lat: 33.45, lng: -112.07 };
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 4,
     center: Arizona
-,
+    ,
   });
-  // The marker, positioned at Arizona
+  
+  // The marker, positioned at the Phoenix metro 
 
   const marker = new google.maps.Marker({
-    position: Arizona
-,
-    map: map,
-  });
-}
-// Initialize and add the map
-function initMap() {
-  // The location of Arizona
-
-  const Arizona
- = { lat: 33.45, lng: -112.07 };
-  // The map, centered at Arizona
-
-  const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 4,
-    center: Arizona
-,
-  });
-  // The marker, positioned at Arizona
-
-  const marker = new google.maps.Marker({
-    position: Phoenix 
-,
+    position: Phoenix
+    ,
     map: map,
   });
 };
