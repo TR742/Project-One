@@ -1,3 +1,24 @@
+function getApi() {
+  let url = "https://dog.ceo/api/breeds/image/random"
+  let response = ""
+  // fetch (queryUrl);
+
+  // $.ajax({
+  //     url: queryUrl,
+  //     method: "GET"
+  //   })
+  //     // Store all of the retrieved data inside of an object called "weather"
+  //     .then(function(image) {
+  //       // Log the queryUrl
+  //       console.log(queryUrl);
+  //     })
+  //       // Log the resulting object
+  //       console.log(queryUrl);
+  fetch(url)
+    .then(function (response) {
+      return response.json();
+    })
+
 
 fetch("https://dog.ceo/api/breeds/image/random/2")
   .then(function(response){
@@ -10,38 +31,53 @@ fetch("https://dog.ceo/api/breeds/image/random/2")
     for(let i=0; i < data.message.length; i++){
 
 
-.then(function (data) {
-  console.log(data)
-  for (let i = 0; i < data.length; i++){
- 
-  document.createElement(Image);
-   figure = data[i].html_url;
+
+    .then(function (data) {
+      console.log(data)
+      for (let i = 0; i < data.length; i++) {
+
+        document.createElement(Image);
+        figure = data[i].html_url;
         figure.display(data);
-      
+
       }
     });
 
-  }
-  //console.log(getApi)
-getApi()
+}
 
-
-// google map JS
+// this is just the defualt location for the example from google it needs to be changed to Arizona after we get it to work
 // Initialize and add the map
 function initMap() {
-  // The location of 
-  const Arizona  = { lat: 34.09343148219766, lng: -111.5585171177053 };
-  // The map, centered at Arizona 
+  // The location of Uluru
+  const uluru = { lat: -25.344, lng: 131.036 };
+  // The map, centered at Uluru
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 4,
-    center: Arizona,
+    center: uluru,
   });
-  // The marker, positioned at Arizona 
+  // The marker, positioned at Uluru
   const marker = new google.maps.Marker({
-    position: Arizona,
+    position: uluru,
     map: map,
   });
 }
+
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  const uluru = { lat: -25.344, lng: 131.036 };
+  // The map, centered at Uluru
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 4,
+    center: uluru,
+  });
+  // The marker, positioned at Uluru
+  const marker = new google.maps.Marker({
+    position: uluru,
+    map: map,
+  });
+}
+
 // The location of AZ
 const Arizona  = { lat: 34.09343148219766, lng: -111.5585171177053};
 // The map, centered at AZ
@@ -65,4 +101,5 @@ const marker = new google.maps.Marker({
     images.appendChild(imgList);
     }
   })
+
 
