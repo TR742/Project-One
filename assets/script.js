@@ -16,6 +16,25 @@ fetch("https://dog.ceo/api/breeds/image/random/2")
     }
   });
 
+  function slideright() {
+    if(document.getElementById("carouselslider").style.left = "0%")
+    {
+      var push = "-100%";
+    }
+    else if(document.getElementById("#carouselExampleIndicators").style.left = "-100%")
+    {
+      var push = "-200%";        
+    }
+    else if(document.getElementById("#carouselExampleIndicators").style.left = "-200%")
+    {
+      var push = "-300%";        
+    }
+    else if(document.getElementById("#carouselExampleIndicators").style.left = "-300%")
+    {
+      var push = "-400%";        
+    }
+    document.getElementById("#carouselExampleIndicators").style.left = push; 
+  }
 
 
 
