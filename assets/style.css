@@ -115,7 +115,7 @@ header h2 {
     /* The width is the width of the web page */
   }
 
-.carousel-item img {
+.carousel-inner img  {
     display: inline;
     width: 25%;
     height: 250px;
