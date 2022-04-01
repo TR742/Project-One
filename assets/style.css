@@ -116,13 +116,19 @@ header h2 {
   }
 
 
-.carousel-inner img  {
+
   .lodginghead {
       text-align: center;
       font-size: larger;
       border: 10px, solid, black;
 
-  };
+  }
+  .carousel-inner img {
+    display: inline;
+    width: 25%;
+    height: 250px;
+  
+  }
 
 
 .carousel-item img {
