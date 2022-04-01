@@ -115,6 +115,8 @@ header h2 {
     borde: 3px solid black; 
   }
 
+
+.carousel-inner img  {
   .lodginghead {
       text-align: center;
       font-size: larger;
