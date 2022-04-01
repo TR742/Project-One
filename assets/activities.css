@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+body {
+    margin:20px ;
+    text-align: center;
+    border: 3px;
+ font-family: 'Indie Flower',cursive;
+}
+
+.rHeaders {
+    background-color: rgb(172, 175, 240);
+}
+
+.pTags {
+    background-color: rgb(172, 175, 240);
+}
+
+.description {
+    background-color: rgb(172, 175, 240);
+}
